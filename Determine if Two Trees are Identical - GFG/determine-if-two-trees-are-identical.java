@@ -149,7 +149,7 @@ class Solution
 	    Stack<Integer> stack2 = new Stack<>();
 	    preOrder(root1,stack1);
 	    preOrder(root2,stack2);
-	    //System.out.print(stack2.peek() + " "+ stack1.peek());
+	    
 	    if(stack1.size()!=stack2.size())
 	    return false;
 	   
