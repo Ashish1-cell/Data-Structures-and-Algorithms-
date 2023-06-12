@@ -44,14 +44,13 @@ class Solution{
             if((j-i+1)<K){
                
                 j++;
-                // result = sum;
+                
             }
             else if(j-i +1 == K){
                 result = Math.max(result,sum);
            
                 sum = sum-Arr.get(i) ;
-                // result = Math.max(result,sum);
-                j++;
+               j++;
                 i++;
                 
             }
